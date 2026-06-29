@@ -1,8 +1,6 @@
 # Fixed-Point Arithmetic & Newton-Raphson Division in Verilog
 
-Welcome to this repository! This project showcases the hardware implementation of fixed-point mathematical operations, culminating in a highly efficient **Fixed-Point Divider using the Newton-Raphson method**. 
-
-This project bridges the gap between numerical analysis and digital logic design, demonstrating how complex floating-point algorithms can be translated into fast, resource-efficient fixed-point hardware.
+This project showcases the hardware implementation of fixed-point mathematical operations - Addition, Subtraction, Multiplication and Division by **Newton Raphson Iterations**. This project bridges the gap between numerical analysis and digital logic design, demonstrating how complex floating-point algorithms can be translated into fast, resource-efficient fixed-point hardware.
 
 ## Project Overview
 This project is divided into two core hardware experiments:
