@@ -1,15 +1,15 @@
-# 🧮 Fixed-Point Arithmetic & Newton-Raphson Division in Verilog
+# Fixed-Point Arithmetic & Newton-Raphson Division in Verilog
 
 Welcome to this repository! This project showcases the hardware implementation of fixed-point mathematical operations, culminating in a highly efficient **Fixed-Point Divider using the Newton-Raphson method**. 
 
 This project bridges the gap between numerical analysis and digital logic design, demonstrating how complex floating-point algorithms can be translated into fast, resource-efficient fixed-point hardware.
 
-## 📖 Project Overview
+## Project Overview
 This project is divided into two core hardware experiments:
 1. **Fundamental Fixed-Point Arithmetic:** Implementing and verifying addition, subtraction, and multiplication in Verilog using customized Q-formats, and validating against a Python reference model.
 2. **Hardware Division via Reciprocation:** Implementing a high-speed division datapath. Since division is notoriously resource-heavy in hardware, this project utilizes the **Newton-Raphson iteration** to compute reciprocals, achieving quadratic convergence.
 
-## 🛠️ Tech Stack & Concepts
+## Tech Stack & Concepts
 * **Languages:** Verilog (RTL), Python (Golden Reference Modeling)
 * **Data Format:** Q4.28 Fixed-Point Representation
 * **Key Algorithms:** Newton-Raphson Method, Minimax Approximations
